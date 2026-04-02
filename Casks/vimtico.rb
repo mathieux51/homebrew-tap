@@ -16,6 +16,11 @@ cask "vimtico" do
 
   app "Vimtico.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Vimtico.app"]
+  end
+
   zap trash: [
     "~/.config/vimtico",
     "~/Library/Preferences/com.mathieux51.Vimtico.plist",

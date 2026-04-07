@@ -1,6 +1,6 @@
 cask "vimtico" do
-  version "2026.4.7.3"
-  sha256 "1bcc82775aadaef0078d41c3bca72a2c1b968a2dbf7f3ba9135ec3812ca0f8b1"
+  version "2026.4.7.4"
+  sha256 "e164ec650ae0d05b3d5533203cb4eb51c3f415c63fd23e4b8773d188c0a1ce42"
 
   url "https://github.com/mathieux51/vimtico/releases/download/v#{version}/Vimtico-#{version}.dmg"
   name "Vimtico"
